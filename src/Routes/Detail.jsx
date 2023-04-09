@@ -22,7 +22,7 @@ const Detail = () => {
   useEffect(() => {
     getDentists();
   }, [param])
-  console.log(dentista.id);
+
   return (
     <>
       <h1>Detail Dentist {dentista.id} </h1>
